@@ -1,0 +1,175 @@
+.wrapper {
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+    max-width: 650px;
+    border: 7px double #2d1e49;
+    border-radius: 7%;
+    background-color: rgba(39, 32, 73, 0.4);
+}
+
+.start:hover {
+    border-style: none;
+    font-size: 100%;
+}
+
+.start h1:hover {
+    color: #26214a;
+}
+
+.sign {
+    width: 15%;
+}
+
+.delete-person {
+    color: yellow;
+}
+
+#signuplink {
+    cursor: pointer;
+}
+
+fieldset {
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+    max-width: 650px;
+    border: 7px double #2d1e49;
+    border-radius: 7%;
+    background-color: rgba(39, 32, 73, 0.4);
+}
+
+.delete {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.delete:hover {
+    background-color: rgba(139, 0, 0, 0.5);
+    border: 3px solid darkred;
+    border-radius: 20px;
+}
+
+h1 {
+    margin-top: auto;
+}
+
+h2 {
+    font-size: 250%;
+    color: white;
+    margin: 0;
+}
+
+p {
+    margin: 3px, 0;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    padding: 5px;
+}
+
+a:hover {
+    border: 3px solid #611d6a;
+    border-radius: 15px;
+    font-size: large;
+}
+
+input {
+    width: 50%;
+    Color: white;
+    padding: 20px;
+    border: unset;
+    border-bottom: 4px solid gray;
+    background: rgba(39, 32, 73, 0.6);
+    outline: none;
+}
+
+input:focus {
+    border-color: #522868;
+    background: rgba(39, 32, 73, 0.9);
+    Color: white;
+}
+
+button {
+    background-color: #6d6388;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    width: 40%;
+    transition-duration: 0.4s;
+    display: inline-block;
+    font-family: 'Bradley Hand', cursive;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    padding: 15px 3px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+button:hover span {
+    padding-right: 25px;
+}
+
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+button:after {
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+button:hover {
+    background-color: #332a55;
+}
+
+@media (max-width:1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media (max-width:992px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media (max-width:767px) {
+    .container {
+        max-width: none;
+    }
+}

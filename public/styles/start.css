@@ -1,0 +1,87 @@
+h1 {
+    margin-top: 300px;
+    color: white;
+    font-size: 500%;
+}
+
+#container {
+    border: 2px solid white;
+    max-width: 1200px;
+    padding: 0, 15px;
+}
+
+button {
+    background-color: #6d6388;
+    text-align: center;
+    color: white;
+    border: none;
+    font-size: 30px;
+    width: 20%;
+    transition-duration: 0.4s;
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+    font-family: 'Bradley Hand', cursive;
+    position: relative;
+    padding: 10px 0;
+    outline: none;
+    margin-bottom: 300px;
+}
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+button:hover span {
+    padding-right: 25px;
+}
+
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+button:after {
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+button:hover {
+    background-color: #611d6a;
+}
+
+@media (max-width:1200px) {
+    #container {
+        max-width: 970px;
+    }
+}
+
+@media (max-width:992px) {
+    #container {
+        max-width: 750px;
+    }
+}
+
+@media (max-width:767px) {
+    #container {
+        max-width: none;
+    }
+}

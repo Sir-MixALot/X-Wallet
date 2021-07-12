@@ -1,0 +1,73 @@
+.wrapper {
+    margin-left: 2%;
+    position: absolute;
+    left: 0;
+    width: 20%
+}
+
+.m_content h2 {
+    text-align: right;
+    padding-right: 3%
+}
+
+.dashboard {
+    position: absolute;
+    right: 0;
+    width: 70%
+}
+
+.filter-wrapper {
+    width: 70%
+}
+
+.filter-wrapper button {
+    width: 15%;
+}
+
+.radio input {
+    width: 20px;
+    color: white;
+}
+
+select {
+    height: 50px;
+    width: 62%;
+    font-size: 20px;
+    border: unset;
+    border-bottom: 4px solid gray;
+    color: white;
+    background-color: rgba(39, 32, 73, 0.6);
+    padding: 5px
+}
+
+select:hover {
+    border-bottom: 4px solid #522868;
+}
+
+select:focus {
+    border-bottom: 4px solid #522868;
+}
+
+label {
+    color: white;
+    font-size: 20px;
+}
+
+table {
+    width: 80%;
+    border: 7px double #2d1e49;
+    border-radius: 15px;
+    background-color: rgba(39, 32, 73, 0.6);
+}
+
+th {
+    font-weight: bolder;
+    border-bottom: 5px solid #332a55;
+}
+
+td,
+th {
+    color: white;
+    font-size: 20px;
+    padding: 16px;
+}

@@ -1,0 +1,25 @@
+.wrapper {
+    max-width: 750px;
+}
+
+.wrapper a {
+    font-size: 30px;
+    border: 3px solid #291e48;
+    border-radius: 15px;
+    background-color: #6d6388;
+}
+
+.wrapper a:hover {
+    background-color: #291e48;
+}
+
+input {
+    width: 40%;
+}
+
+.child {
+    margin: 0 0;
+    display: inline;
+    padding: 10px;
+    width: 47.5%;
+}
